@@ -1,6 +1,6 @@
 body {
- background-color: black;
  font-family: Work Sans,sans-serif;
+ background: linear-gradient(45deg,#0c000c,#2d003a);
 }
 
 .a7-footer {
@@ -16,4 +16,49 @@ body {
     width: 100%;
     left: 0px;
     bottom: 75px;
+}
+
+.grid {
+  position: fixed;
+  inset: 0;              /* full screen */
+  pointer-events: none;  /* clicks pass through */
+
+  background-image:
+    repeating-linear-gradient(
+      to right,
+      #00FF0D 0px,
+      #00FF0D 1px,
+      transparent 1px,
+      transparent 50px
+    ),
+    repeating-linear-gradient(
+      to bottom,
+      #00FF0D 0px,
+      #00FF0D 1px,
+      transparent 1px,
+      transparent 50px
+    );
+
+-webkit-mask: 
+    radial-gradient(circle 500px at 0% 0%, black 100%, transparent 101%),
+    radial-gradient(circle 500px at 100% 100%, black 100%, transparent 101%);
+  -webkit-mask-composite: destination-over; /* Chrome/Safari */
+
+  mask: 
+    radial-gradient(circle 500px at 0% 0%, black 100%, transparent 101%),
+    radial-gradient(circle 500px at 100% 100%, black 100%, transparent 101%);
+  mask-composite: add; /* combine masks */
+
+ 
+}
+
+@media (max-width: 698px) {
+    .footer-bar {
+        bottom: 85px;
+    }
+}
+@media (max-width: 348px) {
+    .footer-bar {
+        bottom: 1000px;
+    }
 }
