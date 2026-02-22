@@ -112,6 +112,14 @@ body {
   text-align: center;
 }
 
+@media (max-width: 500px) {
+    .logo {
+        width: 25vw;
+        max-width: 250px;
+        top: calc(50% - 25vw - 1rem);/
+    }
+}
+
 @media (max-width: 750px) {
     .footer {
         height: 120px;
@@ -168,6 +176,7 @@ body {
     }
 
 }
+
 
 
 
