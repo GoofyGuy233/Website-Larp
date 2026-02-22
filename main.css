@@ -1,5 +1,6 @@
 body {
- font-family: Work Sans,sans-serif;
+ font-family: 'PT Magistral Bold Cyrillic';
+ src: url(MGBOLD.ttf)
  background: linear-gradient(45deg,#0c000c,#2d003a);
 }
 
@@ -145,4 +146,5 @@ body {
     .aaeployme {
         width: 80%;
     }
+
 }
