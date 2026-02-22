@@ -114,9 +114,10 @@ body {
 
 @media (max-width: 500px) {
     .logo {
-        width: 25vw;
-        max-width: 250px;
-        top: calc(50% - 25vw - 1rem);/
+        width: 25vw; 
+        max-width: 250px; 
+        top: 10%;
+        transform: translateX(-50%);
     }
 }
 
@@ -176,6 +177,7 @@ body {
     }
 
 }
+
 
 
 
