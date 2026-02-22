@@ -1,0 +1,19 @@
+body {
+ background-color: black;
+ font-family: Work Sans,sans-serif;
+}
+
+.a7-footer {
+    color: #fffa;
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+}
+.footer-bar {
+    position: absolute;
+    width: 100%;
+    left: 0px;
+    bottom: 75px;
+}
