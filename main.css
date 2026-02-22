@@ -65,6 +65,14 @@ body {
     background-color: #1f0027;
 }
 
+.logo {
+  position: absolute;
+  top: calc(50% - 180px);
+  left: 50%;
+  transform: translateX(-50%);
+  width: 200px;
+}
+
 .releasetime {
   position: absolute;
   top: 50%;
@@ -152,6 +160,7 @@ body {
     }
 
 }
+
 
 
 
