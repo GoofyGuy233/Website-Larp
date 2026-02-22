@@ -65,7 +65,7 @@ body {
     background-color: #1f0027;
 }
 
-.aaeployme {
+.releasetime {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -83,7 +83,7 @@ body {
 }
 
 .num {
-  width: 80%; /* relative to grid cell */
+  width: 80%;
   height: 80%;
   color: #00FF0D;
   margin: 0;
@@ -139,7 +139,7 @@ body {
     .num {
         font-size: 110px;
     }
-    .aaeployme {
+    .releasetime {
           grid-template-columns: repeat(2, 1fr);
             grid-template-rows: repeat(2, 1fr);
             height: 400px;
@@ -147,10 +147,11 @@ body {
     }
 }
 @media (max-width: 1400px) {
-    .aaeployme {
+    .releasetime {
         width: 80%;
     }
 
 }
+
 
 
