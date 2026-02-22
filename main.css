@@ -1,3 +1,8 @@
+@font-face {
+  font-family: 'PT Magistral Bold Cyrillic';
+  src: url('MGBOLD.ttf') format('truetype');
+}
+
 body {
  font-family: 'PT Magistral Bold Cyrillic';
  src: url(MGBOLD.ttf)
@@ -148,3 +153,4 @@ body {
     }
 
 }
+
