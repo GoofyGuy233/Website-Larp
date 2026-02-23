@@ -163,9 +163,8 @@ body {
     .releasetime {
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(2, 1fr);
-        width: 80vw; 
-        height: auto;
-        aspect-ratio: auto;
+        width: 400px; /* this makes it look actually good on mobile */
+        height: 400px;  /* change this one more time and im GOING to touch you*/
     }
     .num {
         font-size: 10vw;
@@ -177,6 +176,7 @@ body {
     }
 
 }
+
 
 
 
