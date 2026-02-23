@@ -75,8 +75,8 @@ body {
   image-rendering: pixelated;
   image-rendering: crisp-edges;
 
-  top: calc(50% - 15vw - 5rem);
-}
+  top: calc(50% - 15vw - 5rem); /* bro what are we doing at this point 😭😭😭 */
+}                               /* did a pixel molest you when you were little or why do you fear using them so much */
 
 .releasetime {
   position: absolute;
@@ -162,10 +162,14 @@ body {
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(2, 1fr);
         width: 400px; /* this makes it look actually good on mobile */
-        height: 400px;  /* change this one more time and im GOING to touch you*/
+        height: 400px;  /* change this one more time and im GOING to touch you */
     }
     .num {
        font-size: 110px;
+    }
+    .logo {
+      width: 0px; /* ui is my passion lets not force the fucking logo on mobile */
+      height: 0px
     }
 }
 @media (max-width: 1400px) {
@@ -174,6 +178,7 @@ body {
     }
 
 }
+
 
 
 
